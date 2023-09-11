@@ -1,14 +1,12 @@
-<template>
-<div>首页</div>
-  <router-view></router-view>
-</template>
-
-<script>
-export default {
-  name: "index"
-}
+<script setup>
+import LayoutNav from '@/views/Layout/component/LayoutNav.vue'
+import LayoutHeader from '@/views/Layout/component/LayoutHeader.vue'
+import LayoutFooter from '@/views/Layout/component/LayoutFooter.vue'
 </script>
 
-<style scoped>
-
-</style>
+<template>
+  <LayoutNav />
+  <LayoutHeader />
+  <RouterView />
+  <LayoutFooter />
+</template>
