@@ -7,16 +7,16 @@
     <div class="container">
       <ul>
         <template v-if="true">
-          <li><a href="javascript:;"><i class="iconfont icon-user"></i>周杰伦</a></li>
+          <li><a href="javascript:;"><i class="iconfont icon-user"></i>是封封呀</a></li>
           <li>
             <el-popconfirm title="确认退出吗?" confirm-button-text="确认" cancel-button-text="取消">
               <template #reference>
-                <a href="javascript:;">退出登录</a>
+                <a href="javascript:;">22计算机3班</a>
               </template>
             </el-popconfirm>
           </li>
-          <li><a href="javascript:;">我的订单</a></li>
-          <li><a href="javascript:;">会员中心</a></li>
+          <li><a href="https://github.com/Traviskey">Github</a></li>
+
         </template>
         <template v-else>
           <li><a href="javascript:;">请先登录</a></li>
